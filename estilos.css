@@ -1,0 +1,126 @@
+@font-face {
+    font-family: "Goudy Medieval";
+    src: url("Goudy Medieval Alternate.ttf");
+  }
+
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;700&display=swap');
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+
+}
+
+
+.header {
+
+    text-align: center;
+    font-family: "Goudy Medieval";
+    width: 100%;
+    height: 746px;
+    padding-left: 16%;
+    padding-right: 16%;
+}
+
+.imglogo{
+    width: 147px;
+    height: 145px;
+    margin-top: 162px;
+}
+
+.header .titulo {
+    padding-top: 30px;
+    font-size: 60pt;
+    padding-bottom: 22px;
+}
+
+.header .slogan {
+
+    font-size: 20pt;
+}
+
+.historia {
+    font-family: "Source Serif Pro";
+    font-weight: 400;
+    font-size: 18pt;
+    margin-right: 24%;
+    margin-left: 24%;
+    width: 52%;
+    padding-bottom: 172px;
+    max-width: 900px;
+
+}
+
+.partes .subtitulos {
+    font-family: "Goudy Medieval";
+    font-size: 40pt;
+    text-align: center;
+    color: #700000;
+    padding-bottom: 71px;
+    padding-left: 16%;
+    padding-right: 16%;
+}
+
+
+.imginfo {
+    width: 52%;
+    min-width: 450px;
+    margin-right: 24%;
+    margin-left: 24%;
+    align-items: center;
+
+
+}
+
+.botones {
+    text-align: center;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 9px;
+
+}
+.botones a {
+    text-decoration: none;
+    color: white;
+    font-family: "Goudy Medieval";
+    font-size: 26pt;
+    display: inline-block;
+    width: 40%;
+    min-width: 400px;
+    max-width: 550px;
+    min-height: 85px;
+    max-height: 190;
+    background-color: #430000;
+    border-radius: 14pt;
+    padding-top: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 1%;
+    margin-top: 9px;
+}
+
+
+
+
+.footer{
+    padding-top: 100px;
+
+    z-index: 100;
+    color: white;
+    display: block;
+    height: 193px;
+}
+
+.footer .titulosfooter{
+    font-family: "source serif pro";
+    font-size: 12pt;
+    background-color: #430000;
+
+
+}
+.footer .textosfooter {
+    background-color: #430000;
+}

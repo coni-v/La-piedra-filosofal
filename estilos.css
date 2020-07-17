@@ -109,6 +109,22 @@ box-sizing: border-box;
 
 }
 
+.video2 {
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    position: relative;
+    margin-left: 22%;
+    margin-right: 22%;
+    }
+.video2 iframe, .video2 object, .video2 embed {
+    height: 53.5%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    }
 
 .footer{
     padding-top: 100px;

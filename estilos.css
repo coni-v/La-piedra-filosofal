@@ -8,10 +8,11 @@
 
 
 * {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
 
 }
 
@@ -47,12 +48,12 @@ box-sizing: border-box;
     font-family: "Source Serif Pro", serif;
     font-weight: 400;
     font-size: 18pt;
-    margin-right: 24%;
-    margin-left: 24%;
+    margin-right: 25%;
+    margin-left: 25%;
     width: 52%;
     padding-bottom: 172px;
-    max-width: 900px;
-    text-align: center;
+  
+ 
 
 }
 
@@ -71,6 +72,7 @@ box-sizing: border-box;
     width: 52%;
     margin-right: 24%;
     margin-left: 24%;
+    margin-bottom: 172px;
 
 
 }
@@ -99,27 +101,30 @@ box-sizing: border-box;
     padding-left: 3%;
     padding-right: 3%;
     padding-bottom: 1%;
-    margin-top: 9px;
+    margin-top: 20px;
+
 }
 
 .imginfo2 {
     margin-left: 24%;
     margin-right: 24%;
     width: 52%;
+    margin-bottom: 172px;
 
 }
 
 .video2 {
     height: 0;
     overflow: hidden;
-    padding-bottom: 56.25%;
+    padding-bottom: 29%;
     padding-top: 30px;
     position: relative;
     margin-left: 22%;
     margin-right: 22%;
+    margin-bottom: 200px;
     }
 .video2 iframe, .video2 object, .video2 embed {
-    height: 53.5%;
+    height: 100%;
     left: 0;
     position: absolute;
     top: 0;
@@ -127,21 +132,44 @@ box-sizing: border-box;
     }
 
 .footer{
-    padding-top: 100px;
-
-    z-index: 100;
-    color: white;
+    width: 100vw;
     display: block;
-    height: 193px;
+    overflow: hidden;
+    padding: 40px 0;
+    background-color: #430000;
+    padding-left: 24%;
+    margin-top: 150px;
+
 }
 
-.footer .titulosfooter{
+.innerfooter {
+    display: block;
+    margin: 0;
+    width: 1100px;
+    height: 100%;
+    color: white;
+
+}
+
+
+.innerfooter .columa1{
     font-family: "Source Serif Pro";
-    font-size: 12pt;
-    background-color: #430000;
+    font-size: 11pt;
 
+    width: 210px;
+    height: 100%;
+    display: block;
 
 }
-.footer .textosfooter {
-    background-color: #430000;
+
+.innerfooter .columa2{
+    font-family: "Source Serif Pro";
+    font-size: 11pt;
+    padding-left: 12%;
+    width: 210px;
+    height: 100%;
+    display: block;
+    float: left;
+
 }
+

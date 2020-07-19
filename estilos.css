@@ -119,57 +119,130 @@
     padding-bottom: 29%;
     padding-top: 30px;
     position: relative;
-    margin-left: 22%;
-    margin-right: 22%;
-    margin-bottom: 150px;
+    margin-left: 24%;
+    margin-right: 24%;
+    margin-bottom: 100px;
     }
 .video2 iframe, .video2 object, .video2 embed {
-    height: 100%;
+    height: 91%;
     left: 0;
     position: absolute;
     top: 0;
     width: 100%;
     }
 
-.footer{
-    width: 100vw;
-    display: block;
-    overflow: hidden;
-    padding: 40px 0;
-    background-color: #430000;
-    padding-left: 24%;
-    margin-top: 150px;
-
-}
-
-.innerfooter {
-    display: block;
-    margin: 0;
-    width: 1100px;
-    height: 100%;
-    color: white;
-
-}
 
 
-.innerfooter .columa1{
-    font-family: "Source Serif Pro";
-    font-size: 11pt;
 
-    width: 210px;
-    height: 100%;
-    display: block;
 
-}
+    footer{
+        position: fixed;
+        bottom: 0;
+    }
+    
+    @media (max-height:1000px){
+        footer { position: static; }
+        header { padding-top:40px; }
+    }
+    
+    
+    .footer-distributed{
+        background-color: #430000;
+        color:  #ffffff;
+        font-size: 11pt;
+        box-sizing: border-box;
+        width: 100%;
+        text-align: left;
+        font-family: "Source Serif Pro", serif;
+        font-size: 11pt;
+        padding: 38px 20% 40px 20%;
+        margin-top: 80px;
+    }
+    
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right{
+        display: inline-block;
+        vertical-align: top;
+    }
+    
+    /* Footer left */
+    
+    .footer-distributed .footer-left{
+        font-family: "Goudy Medieval", serif;
+        width: 23%;
+        text-align: right;
+        font-size: 12pt;
+        padding-right: 5%;
+    }
+    
+    
+    /* The company logo */
+    
+    .footer-distributed .footer-left img{
+        width: 20px;
+        margin-right: 6px;
+        margin-top: 6px;
+        vertical-align: text-bottom;
+    }
+    
 
-.innerfooter .columa2{
-    font-family: "Source Serif Pro";
-    font-size: 11pt;
-    padding-left: 12%;
-    width: 210px;
-    height: 100%;
-    display: block;
-    float: left;
+    
+    /* Footer Center */
+    
+    .footer-distributed .footer-center{
+        width: 25%;
+        font-family: "Source Serif Pro", serif;
+    }
+    
+    
+    .footer-distributed .footer-center i{
+        color: #ffffff;
+        font-size: 11pt;
+        width: 38px;
+        height: 38px;
+        text-align: center;
+        line-height: 23px;
+        vertical-align: middle;
+    }
+    .footer-distributed .footer-center .ifa-map-maker{
+        font-size: 12pt;
+ 
+    }
 
-}
 
+    .footer-distributed .footer-center i.fa-envelope{
+        font-size: 11pt;
+ 
+    }
+    
+    .footer-distributed .footer-center p{
+        display: inline-block;
+        color: #ffffff;
+        vertical-align: middle;
+        margin:0;
+    }
+    
+    
+    
+
+    /* Here is the code for Responsive Footer */
+    /* You can remove below code if you don't want Footer to be responsive */
+    
+    
+    @media (max-width: 1000px) {
+    
+        .footer-distributed .footer-left,
+        .footer-distributed .footer-center,
+        .footer-distributed .footer-right{
+            display: block;
+            width: 100%;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+    
+        .footer-distributed .footer-center i{
+            margin-left: 0;
+        }
+    
+    }

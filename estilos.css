@@ -101,7 +101,9 @@
     padding-left: 3%;
     padding-right: 3%;
     padding-bottom: 1%;
-    margin-top: 20px;
+    margin-right: 24%;
+    margin-left: 24%;
+    margin-bottom: 15px;
 
 }
 
@@ -138,6 +140,7 @@
     footer{
         position: fixed;
         bottom: 0;
+ 
     }
     
     @media (max-height:1000px){
@@ -156,7 +159,7 @@
         font-family: "Source Serif Pro", serif;
         font-size: 11pt;
         padding: 38px 15% 40px 20%;
-        margin-top: 80px;
+        margin-top: 100px;
     }
     
     .footer-distributed .footer-left,
@@ -182,8 +185,8 @@
     .footer-distributed .footer-left img{
         width: 20px;
         margin-right: 6px;
-        margin-top: 6px;
-        vertical-align: text-bottom;
+        margin-top: -2px;
+        vertical-align: text-top;
     }
     
 
@@ -191,7 +194,7 @@
     /* Footer Center */
     
     .footer-distributed .footer-center{
-        width: 25%;
+        width: 23%;
         font-family: "Source Serif Pro", serif;
     }
     
